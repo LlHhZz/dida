@@ -1,0 +1,16 @@
+
+.img-full-screen.data-v-d5baea6f {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-size: 100% 100%;
+    background-color: #fff8e8;
+}
+.scroll-container.data-v-d5baea6f {
+    overflow-y: auto;
+}
+.container.data-v-d5baea6f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

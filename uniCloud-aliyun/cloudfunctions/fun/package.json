@@ -1,0 +1,9 @@
+{
+  "name": "fun",
+  "dependencies": {
+    "segment": "^0.1.3"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

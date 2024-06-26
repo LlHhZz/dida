@@ -1,0 +1,10 @@
+{
+  "name": "gpt-wx",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "crypto-js": "^4.2.0"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

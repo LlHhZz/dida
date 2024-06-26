@@ -1,0 +1,49 @@
+
+page.data-v-78027fd3 {
+    height: 100vh;
+}
+.img-full-screen.data-v-78027fd3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff9ed;
+}
+.button-container.data-v-78027fd3 {
+    position: fixed;
+    bottom: 0;
+    /* 底部对齐 */
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100rpx;
+}
+.circle-button.data-v-78027fd3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffd14c;
+    /* 按钮背景颜色 */
+    width: 140rpx;
+    /* 按钮宽度 */
+    height: 140rpx;
+    /* 按钮高度 */
+    margin: 30rpx;
+}
+.circle-button.large.data-v-78027fd3 {
+    width: 180rpx;
+    /* 大按钮宽度 */
+    height: 180rpx;
+    /* 大按钮高度 */
+}
+.icon.data-v-78027fd3 {
+    width: 50rpx;
+    /* 图标大小 */
+    height: 50rpx;
+    margin-top: 50rpx;
+    /* 图标距离按钮顶部的距离 */
+}
+.description.data-v-78027fd3 {
+    font-size: 24rpx;
+    text-align: center;
+}

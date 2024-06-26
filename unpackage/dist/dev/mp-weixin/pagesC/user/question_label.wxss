@@ -1,0 +1,6 @@
+
+.img-full-screen.data-v-3fd45643 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff9ed;
+}

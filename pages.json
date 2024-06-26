@@ -1,0 +1,216 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-app",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/ask/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom" // 头部自定义
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/story/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/test/upload_story",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom" // 头部自定义
+      }
+    },
+    {
+      "path": "pages/test/upload_answer",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom" // 头部自定义
+      }
+    }
+  ],
+  "subPackages": [{
+    "root": "pagesA", // 子包的根目录
+    "pages": [{ // 此处和配置路径和pages中的一样
+        "path": "ask/child_info", // 配置页面路径 
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      },
+      {
+        "path": "ask/question_bank",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      },
+      {
+        "path": "ask/role_choose",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      }
+    ]
+  }, {
+    "root": "pagesB", // 子包的根目录
+    "pages": [{ // 此处和配置路径和pages中的一样
+      "path": "ai/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom" // 头部自定义
+      }
+    }]
+  }, {
+    "root": "pagesC", // 子包的根目录
+    "pages": [{
+        "path": "user/question_label",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      },
+      {
+        "path": "user/story_house",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      },
+      {
+        "path": "user/associate_family",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      },
+      {
+        "path": "user/problem_feedback",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      },
+      {
+        "path": "user/setting",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      },
+      {
+        "path": "user/changeUsername",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      },
+      {
+        "path": "user/changeIdentity",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      }
+    ]
+  }, {
+    "root": "pagesD", // 子包的根目录
+    "pages": [{
+        "path": "story/body_choose",
+        "style": {
+          "navigationBarTitleText": "",
+          "navigationStyle": "custom" // 头部自定义
+        }
+      }, {
+        "path": "story/signal_choose",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      },
+      {
+        "path": "story/story_topic",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false,
+          "navigationStyle": "custom" // 头部自定义
+        }
+      }
+    ]
+  }, {
+    "root": "pagesE", // 子包的根目录
+    "pages": [{
+      "path": "display/collection",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom" // 头部自定义
+      }
+    }, {
+      "path": "display/story_page",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom" // 头部自定义
+      }
+    }]
+  }],
+  "tabBar": {
+    "color": "#c0b193",
+    "selectedColor": "#ff9901",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/story/index",
+      "text": "故事",
+      "iconPath": "/static/故事.png",
+      "selectedIconPath": "/static/故事(1).png"
+    }, {
+      "pagePath": "pages/ask/index",
+      "text": "问答",
+      "iconPath": "/static/问答.png",
+      "selectedIconPath": "/static/问答(1).png"
+    }, {
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "/static/我的.png",
+      "selectedIconPath": "/static/我的(1).png"
+    }]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fefcf6",
+    "backgroundColor": "#fefcf6"
+  },
+  "uniIdRouter": {}
+}

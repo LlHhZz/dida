@@ -1,0 +1,23 @@
+
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.back-icon {
+    display: flex;
+    align-items: center;
+    width: 64rpx;
+    height: 100%;
+    margin-left: 20rpx;
+    margin-top: 40rpx;
+}
+.back-icon image {
+    width: 45rpx;
+    height: 45rpx;
+}
+.headNav {
+    display: flex;
+}
