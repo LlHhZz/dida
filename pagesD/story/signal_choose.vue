@@ -98,30 +98,30 @@
       body_.value = 'belly'
     }
 
-    img_url.value = "http://175.27.162.149:8000/media/" + body_.value + ".png"
+    img_url.value = "https://dida.012331.com/media/" + body_.value + ".png"
 
   });
 
   const buttonOneClicked = () => {
-    img_url.value = "http://175.27.162.149:8000/media/" + body_.value + "_green.png"
+    img_url.value = "https://dida.012331.com/media/" + body_.value + "_green.png"
     uni.navigateTo({
       url: '/pagesD/story/story_topic?body=' + body.value + '&color=绿'
     })
   }
   const buttonTwoClicked = () => {
-    img_url.value = "http://175.27.162.149:8000/media/" + body_.value + "_yellow.png"
+    img_url.value = "https://dida.012331.com/media/" + body_.value + "_yellow.png"
     uni.navigateTo({
       url: '/pagesD/story/story_topic?body=' + body.value + '&color=黄'
     })
   }
   const buttonThreeClicked = () => {
-    img_url.value = "http://175.27.162.149:8000/media/" + body_.value + "_red.png"
+    img_url.value = "https://dida.012331.com/media/" + body_.value + "_red.png"
     uni.navigateTo({
       url: '/pagesD/story/story_topic?body=' + body.value + '&color=红'
     })
   }
   const buttonFourClicked = () => {
-    img_url.value = "http://175.27.162.149:8000/media/" + body_.value + ".png"
+    img_url.value = "https://dida.012331.com/media/" + body_.value + ".png"
 
     const index = Math.floor(Math.random() * signals.length);
     uni.navigateTo({

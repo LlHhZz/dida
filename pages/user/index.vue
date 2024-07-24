@@ -7,7 +7,7 @@
 
     <!-- 头像 -->
     <image v-if="photo.value == ''" style="position: absolute; width: 25vw; height: 13vh; left: 38vw; top: 8vh;"
-      src="http://175.27.162.149:8000/media/uploaded_photo_oPhKb6w1zt7PGXFasszebMyvO9R4_5440.jpg">
+      src="https://dida.012331.com/media/uploaded_photo_oPhKb6w1zt7PGXFasszebMyvO9R4_5440.jpg">
     </image>
     <image v-else
       style="position: absolute; width: 185rpx; height: 185rpx; left: 38vw; top: 8vh; border-radius: 100rpx;"

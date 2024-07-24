@@ -11,7 +11,7 @@
         uni.setStorageSync('MenuButton', menuButtonInfo)
       }
       wx.cloud.init({
-        env: 'test-0gh13n9b5cfb2db5'
+        env: 'test-6g3p0ggu89153d4d'
       })
     },
     onShow: function() {

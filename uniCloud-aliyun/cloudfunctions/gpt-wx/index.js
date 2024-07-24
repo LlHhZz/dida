@@ -13,6 +13,7 @@ const CryptoJS = require('crypto-js')
 // 本地好像不行
 
 exports.main = async (event, context) => {
+  console.log(111);
   // 鉴权
   var url = "wss://spark-api.xf-yun.com/v3.5/chat";
   var host = "spark-api.xf-yun.com";

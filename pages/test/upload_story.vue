@@ -131,7 +131,7 @@
       // 上传文件到后端
       uploadStoryFile(filePath, fileName) {
         uni.uploadFile({
-          url: 'http://175.27.162.149:8000/upload/story/',
+          url: 'https://dida.012331.com/upload/story/',
           filePath: filePath,
           name: 'file',
           fileName: fileName, // 可选，文件名
@@ -164,7 +164,7 @@
       // 上传文件到后端
       uploadQuestionFile(filePath, fileName) {
         uni.uploadFile({
-          url: 'http://175.27.162.149:8000/upload/question/',
+          url: 'https://dida.012331.com/upload/question/',
           filePath: filePath,
           name: 'file',
           fileName: fileName, // 可选，文件名

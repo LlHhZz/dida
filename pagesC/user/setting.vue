@@ -11,10 +11,10 @@
     </text>
 
     <!-- 头像 -->
-    <image v-if="photo === ''" style="position: absolute; width: 25vw; height: 13vh; left: 8vw; top: 10vh;"
-      src="http://175.27.162.149:8000/media/uploaded_photo_oPhKb6w1zt7PGXFasszebMyvO9R4_5440.png">
+    <image v-if="photo === ''" style="position: absolute; width: 25vw; height: 11.5vh; left: 8vw; top: 10vh;"
+      src="https://dida.012331.com/media/uploaded_photo_oPhKb6w1zt7PGXFasszebMyvO9R4_5440.png">
     </image>
-    <image v-else style="position: absolute; width: 25vw; height: 12.5vh; left: 8vw; top: 10vh; border-radius: 100rpx;"
+    <image v-else style="position: absolute; width: 25vw; height: 11.5vh; left: 8vw; top: 10vh; border-radius: 100rpx;"
       :src="photo">
     </image>
     <image @click="chooseImage" style="position: absolute; width: 7vw; height: 4vh; left: 26vw; top: 18vh;"
@@ -120,7 +120,7 @@
       success: (res) => {
         // photo_copy.value = res.tempFilePaths[0];
         uni.uploadFile({
-          url: 'http://175.27.162.149:8000/user/modify/photo/',
+          url: 'https://dida.012331.com/user/modify/photo/',
           filePath: res.tempFilePaths[0],
           name: 'file',
           formData: {

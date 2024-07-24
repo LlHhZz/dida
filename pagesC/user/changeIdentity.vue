@@ -146,7 +146,7 @@
   // 更改身份信息
   const modify_info = () => {
     uni.request({
-      url: 'http://175.27.162.149:8000/user/modify/roleinfo/',
+      url: 'https://dida.012331.com/user/modify/roleinfo/',
       method: 'POST',
       data: {
         openid: uni.getStorageSync('openid'),

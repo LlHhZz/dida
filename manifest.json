@@ -50,7 +50,7 @@
   "quickapp": {},
   /* 小程序特有相关 */
   "mp-weixin": {
-    "appid": "wx9d0c15657a3dbc25",
+    "appid": "wx6e2937ef04361300",
     "setting": {
       "urlCheck": false
     },
@@ -73,5 +73,20 @@
   "uniStatistics": {
     "enable": false
   },
-  "vueVersion": "3"
+  "vueVersion": "3",
+  "h5": {
+    "title": "dida",
+    "router": {
+      "mode": "hash",
+      "base": "./"
+    },
+    "devServer": {
+      "port": 80
+    },
+    "optimization": {
+      "treeShaking": {
+        "enable": true
+      }
+    }
+  }
 }

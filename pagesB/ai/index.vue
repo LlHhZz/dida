@@ -136,6 +136,8 @@
     const wssUrl = await wx.cloud.callFunction({
       name: 'gpt-wx'
     })
+    console.log(wssUrl.result.url);
+
     SocketTask.value = uni.connectSocket({
       url: wssUrl.result.url,
       success: res => {
@@ -144,18 +146,19 @@
       fail: err => {
         console.log(err, 'ws连接失败')
         wx.showToast({
-          title: '出现异常错误',
+          title: 'ws连接失败',
           icon: 'none'
         })
         messageData.value = []
         sendIngState.value = false
       }
     })
+
     // 连接失败的监听
     SocketTask.value.onError((res) => {
-      console.log('监听到错误', res)
+      console.log('监听到错误', res.errMsg)
       wx.showToast({
-        title: '出现异常错误',
+        title: '监听到错误:' + res.errMsg,
         icon: 'none'
       })
       messageData.value = []
@@ -199,7 +202,7 @@
         fail: err => {
           console.log('发送消息失败')
           wx.showToast({
-            title: '出现异常错误',
+            title: '发送消息失败',
             icon: 'none'
           })
           messageData.value = []

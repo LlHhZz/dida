@@ -188,7 +188,7 @@
     color.value = options.color
     topic.value = options.topic
     uni.request({
-      url: 'http://175.27.162.149:8000/find/story/',
+      url: 'https://dida.012331.com/find/story/',
       method: 'POST',
       data: {
         body: body.value,
@@ -204,7 +204,7 @@
           storyid.value = story_list.value[0].storyid;
 
           uni.request({
-            url: 'http://175.27.162.149:8000/get/story/collected/',
+            url: 'https://dida.012331.com/get/story/collected/',
             method: 'POST',
             data: {
               openid: uni.getStorageSync('openid'),
@@ -348,7 +348,7 @@
   const onCollectedTap = () => {
     console.log('收藏按钮被点击了！');
     uni.request({
-      url: 'http://175.27.162.149:8000/change/story/collected/',
+      url: 'https://dida.012331.com/change/story/collected/',
       method: 'POST',
       data: {
         openid: uni.getStorageSync('openid'),

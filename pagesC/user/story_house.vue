@@ -225,7 +225,7 @@
       },
       getCollectedStories(body = null, color = null, topic = null) {
         uni.request({
-          url: 'http://175.27.162.149:8000/get/collected/story/',
+          url: 'https://dida.012331.com/get/collected/story/',
           method: 'POST',
           data: {
             body: body,
@@ -254,7 +254,7 @@
       },
       getAllStories(body = null, color = null, topic = null) {
         uni.request({
-          url: 'http://175.27.162.149:8000/get/all/story/',
+          url: 'https://dida.012331.com/get/all/story/',
           method: 'POST',
           data: {
             body: body,

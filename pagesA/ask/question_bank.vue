@@ -51,7 +51,7 @@
         <text>以下是常见的性教育主题：</text>
         <br />
         <view @click="onTopicOneTap"
-          style="height: 4vh; width: 80vw; margin-top: 1.5vh;font-size: 4.8vw; background-color: #ebebeb; z-index: 1;">
+          style="height: 4vh; width: 80vw; margin-top: 1.5vh;padding-top:0.5vh;font-size: 4.8vw; background-color: #ebebeb; z-index: 1;">
           <span style="padding-left: 10%;">权力和价值观</span>
         </view>
         <view @click="onTopicTwoTap"
@@ -100,7 +100,7 @@
         <br />
         <text>的进行提问。如果没有，也可以直接问我。</text>
         <view @click="onQuestionTap('女生用安全套时，男生不用嘛？')"
-          style="margin-top: 1vh; height: 4vh; width: 80vw; margin-top: 1vh;font-size: 4.8vw; background-color: #ebebeb; z-index: 1;">
+          style="margin-top: 1vh; height: 4vh; width: 80vw; margin-top: 1vh;padding-top:0.5vh;font-size: 4.8vw; background-color: #ebebeb; z-index: 1;">
           <span style="padding-left: 5%;">女生用安全套时，男生不用嘛？</span>
         </view>
         <view @click="onQuestionTap('男生对怀孕的女生不负责怎么办？')"
@@ -248,7 +248,7 @@
   // 发送提问
   const sendMessage = () => {
     uni.request({
-      url: 'http://175.27.162.149:8000/get/answer/',
+      url: 'https://dida.012331.com/get/answer/',
       method: 'POST',
       data: {
         question: text.value,

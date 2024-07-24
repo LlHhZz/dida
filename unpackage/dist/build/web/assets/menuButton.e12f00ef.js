@@ -1,0 +1,1 @@
+import{q as t}from"./index-b9b7da21.js";const e=new class{getMenuButton(){let e=t("MenuButton");return{top:2*e.top+"rpx",height:2*e.height+"rpx",left:2*e.left+"rpx",right:2*e.right+"rpx",width:2*e.width+"rpx",seViewHeight:2*e.top+2*e.height+"rpx"}}};export{e as M};

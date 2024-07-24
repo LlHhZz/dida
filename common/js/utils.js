@@ -1,6 +1,6 @@
 class Utils {
   constructor() {
-    this.baseUrl = 'http://175.27.162.149:8000'
+    this.baseUrl = 'https://dida.012331.com'
   }
   // 获取用户信息
   getUserInfo() {
